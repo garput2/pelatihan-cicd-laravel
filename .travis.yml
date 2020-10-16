@@ -32,3 +32,4 @@ jobs:
       - docker images
       - docker tag travis-ci-build-stages-demo $DOCKER_USERNAME/pelatihan-cicd-laravel
       - docker push $DOCKER_USERNAME/pelatihan-cicd-laravel
+      
